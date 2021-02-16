@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_test_app/animation.dart';
-import 'package:flutter_test_app/share.dart';
-import 'container/containers.dart';
-import 'feedback.dart';
+import 'splash/splash.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,9 +15,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      home: SplashScreen(),
       //home: FeedBack(),
-      //home: TransitionsHomePage(),
-      home: Containers(),
+      //home: Containers(),
     );
   }
 }
